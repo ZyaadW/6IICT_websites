@@ -1,3 +1,6 @@
+* {
+	font-family: 'Verdana', 'Arial', 'sans-serif';
+}
 body {
 	background-color: grey;
 	}
@@ -12,7 +15,7 @@ header, footer {
 	}
 
 header {
-	background-image: url("../afbeeldingen/hoofding.jpg");
+	background-image: url("../afbeeldingen/download.jfif");
 	margin-top: -8px;
 	text-align: center;
 	padding-top: 80px;
@@ -21,7 +24,11 @@ header {
 	
 h1 {
 	font-size: 90px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	
 	}
+
 aside {
 	float: right;
 	width: 20%;
@@ -34,10 +41,13 @@ aside {
 article {
 	float: left;
 	width: 70%;
-	margin: 10px;
-	margin-left: 0px;
+	margin: 0px;
+	margin-left: 15px;
+	margin-top: 50px;
 	padding: 10px;
-	background-color: #DDDDDD;	/*lichtgrijs*/
+	padding: 0px;
+	Padding-right: 100px;
+	background-image: url("../afbeeldingen/BigDaddyV.jifif");	/*lichtgrijs*/
 	}
 	
 footer {
@@ -47,6 +57,16 @@ footer {
 
 p {
 	font-style: normal;
-	font-weight: 200;
+	font-weight: normal;
 	margin: 10px;
+}
+
+p.inleiding {
+	font-weight: bold;
+}
+p.citaat {
+	font-style: normal;
+	font-weight: normal;
+	margin: 40px;
+	font-family: italic;
 }
