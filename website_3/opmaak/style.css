@@ -2,10 +2,17 @@ footer, header {
 	text-align: center;
 	background-color: white;
 	}
-
+body{
+	background-image: url("../afbeeldingen/zonsondergang.jpg");
+	background-size: contain;
+	background-attachment: fixed;
+	font-family: chant;
+}
 div#inhoud {
 	margin: auto;
 	width: 1000px;
+	background-color:  #8b89ff;
+	padding: 10px;
 	}
 
 div#land {
@@ -35,4 +42,9 @@ img.vlag {
 	border: 1px;
 	border-style: solid;
 	border-color: black; 
+	}
+
+img.foto {
+		width: 450px;
+		height: 300px; 
 	}
